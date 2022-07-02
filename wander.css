@@ -1,23 +1,19 @@
 ::selection {
-  background: #fdfd00;
-  color: deeppink;
+  background: #111;
+  color: violet;
 }
 
 :root {
-  background: deeppink;
+  background: violet;
   color: #111;
 }
 
 :any-link {
-  color: #fdfd00;
+  color: #111;
 }
 
 @media (prefers-contrast: less) {
   :root {
-    background: mistyrose;
-  }
-
-  :any-link {
-    color: deeppink;
+    color: #222;
   }
 }
